@@ -1,0 +1,60 @@
+ul {
+    list-style-type: none ;
+    padding: 1rem 0 ;
+    background-color:skyblue;
+    overflow: hidden;
+    margin: -8px ;
+    }
+ul li {
+    font-size: 30px;
+}    
+li a {
+    text-decoration: none ;
+    float: left ;
+    display: flex;
+    color: black;
+    padding: 10px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.dog {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.dog input[type=text] {
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+    height: 40px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+.dog button[type=submit]{
+    border: none;
+    border-radius: 3px;
+    background-color: #4285f4;
+    width: 50px ;
+    height: 42px;
+    padding: 0px;
+    color : #fff;
+    cursor:pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.dog button[type=submit]:hover {
+    background-color: #2d69c4;
+}
+.pa{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.error{
+    color: #f95959;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 10px;
+    padding: 5px;
+}
